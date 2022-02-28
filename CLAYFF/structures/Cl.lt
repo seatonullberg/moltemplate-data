@@ -1,0 +1,9 @@
+# Chlorine Ion
+
+import "CLAYFF.lt"
+
+Cl inherits CLAYFF {
+    write("Data Atoms") {
+        $atom:Cl $mol:Cl @atom:Cl 0.0 0.0 0.0 0.0
+    }
+}

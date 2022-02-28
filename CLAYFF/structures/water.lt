@@ -1,0 +1,20 @@
+# Water Molecule
+
+import "CLAYFF.lt"
+
+Water inherits CLAYFF {
+    write("Data Atoms") {
+        $atom:O $mol:water @atom:O_w   0.0   0.0000000    0.0000    0.0000000
+        $atom:H1 $mol:water @atom:H_w  0.0   0.8164904    0.0000    0.5773590
+        $atom:H2 $mol:water @atom:H_w  0.0  -0.8164904    0.0000    0.5773590
+    }
+
+    write("Data Bonds") {
+        $bond:b1 @bond:O_w-H_w $atom:O $atom:H1
+        $bond:b2 @bond:O_w-H_w $atom:O $atom:H2
+    }
+
+    write("Data Angles") {
+        $angle:a1 @angle:H_w-O_w-H_w $atom:H1 $atom:O $atom:H2
+    }
+}

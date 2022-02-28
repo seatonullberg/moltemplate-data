@@ -1,0 +1,9 @@
+# Sodium Ion
+
+import "CLAYFF.lt"
+
+Na inherits CLAYFF {
+    write("Data Atoms") {
+        $atom:Na $mol:Na @atom:Na 0.0 0.0 0.0 0.0
+    }
+}

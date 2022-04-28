@@ -1,6 +1,6 @@
-# Sodium Ion
+# CLAYFF Sodium Ion
 
-import "CLAYFF.lt"
+import "clayff.lt"
 
 Na inherits CLAYFF {
     write("Data Atoms") {

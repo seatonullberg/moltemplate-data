@@ -1,6 +1,6 @@
-# Pyrophyllite 110A Edge
+# CLAYFF Pyrophyllite 110A Edge
 
-import "CLAYFF.lt"
+import "clayff.lt"
 
 Pyrophyllite110A inherits CLAYFF {
     write("Data Atoms") {

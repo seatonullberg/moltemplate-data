@@ -164,14 +164,4 @@ CLAYFF {
         @angle:Fe_o-O_hs-H_h @atom:Fe_o @atom:O_hs @atom:H_h
         @angle:Li_o-O_hs-H_h @atom:Li_o @atom:O_hs @atom:H_h
     }
-
-    write_once("In Init") {
-        units        real
-        atom_style   full
-        bond_style   harmonic
-        angle_style  harmonic
-        kspace_style ewald 1.0e-4
-        pair_style   lj/cut/coul/long 12.5
-        pair_modify  mix arithmetic
-    }
 }

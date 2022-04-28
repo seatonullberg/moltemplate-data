@@ -1,6 +1,6 @@
-# Chlorine Ion
+# CLAYFF Chlorine Ion
 
-import "CLAYFF.lt"
+import "clayff.lt"
 
 Cl inherits CLAYFF {
     write("Data Atoms") {

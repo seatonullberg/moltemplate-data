@@ -1,6 +1,6 @@
-# Pyrophyllite
+# CLAYFF Pyrophyllite
 
-import "CLAYFF.lt"
+import "clayff.lt"
 
 Pyrophyllite inherits CLAYFF {
     write("Data Atoms") {

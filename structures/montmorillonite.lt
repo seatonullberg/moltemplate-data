@@ -6,23 +6,23 @@ Montmorillonite inherits CLAYFF {
     write("Data Atoms") {
         $atom:O_h1 $mol:m1 @atom:O_h 0.0 3.59082402 4.94610483 4.45364464
         $atom:O_h2 $mol:m1 @atom:O_h 0.0 4.84904685 4.94467298 2.44994251
-        $atom:O_h3 $mol:m1 @atom:O_h 0.0 0.99538598 0.47591183 4.45350240
-        $atom:O_h4 $mol:m1 @atom:O_h 0.0 2.25362547 0.47392983 2.44977783
+        $atom:O_hs3 $mol:m1 @atom:O_hs 0.0 0.99538598 0.47591183 4.45350240
+        $atom:O_hs4 $mol:m1 @atom:O_hs 0.0 2.25362547 0.47392983 2.44977783
         $atom:O_h5 $mol:m1 @atom:O_h 0.0 8.77591685 4.94630126 4.45350257
         $atom:O_h6 $mol:m1 @atom:O_h 0.0 10.03418106 4.94479453 2.44987402
         $atom:O_h7 $mol:m1 @atom:O_h 0.0 6.18058713 0.47600618 4.45383110
         $atom:O_h8 $mol:m1 @atom:O_h 0.0 7.43872103 0.47436559 2.45013383
         $atom:O_b1 $mol:m1 @atom:O_b 0.0 0.62814260 6.66648078 4.51687579
-        $atom:O_b2 $mol:m1 @atom:O_b 0.0 2.62655939 3.22423949 2.38663801
+        $atom:O_bos2 $mol:m1 @atom:O_bos 0.0 2.62655939 3.22423949 2.38663801
         $atom:O_b3 $mol:m1 @atom:O_b 0.0 1.43569395 2.45098992 0.13468876
         $atom:O_b4 $mol:m1 @atom:O_b 0.0 1.02568237 4.94586766 6.53348599
         $atom:O_b5 $mol:m1 @atom:O_b 0.0 2.22974536 4.94458598 0.37005537
         $atom:O_b6 $mol:m1 @atom:O_b 0.0 -0.36622181 0.47409717 0.36963032
-        $atom:O_b7 $mol:m1 @atom:O_b 0.0 0.03281800 2.19620958 2.38265274
+        $atom:O_bos7 $mol:m1 @atom:O_bos 0.0 0.03281800 2.19620958 2.38265274
         $atom:O_b8 $mol:m1 @atom:O_b 0.0 3.61445677 0.47617276 6.53352950
-        $atom:O_b9 $mol:m1 @atom:O_b 0.0 0.62650243 3.22422055 4.52034560
+        $atom:O_bos9 $mol:m1 @atom:O_bos 0.0 0.62650243 3.22422055 4.52034560
         $atom:O_b10 $mol:m1 @atom:O_b 0.0 4.40902912 2.96909231 6.76858507
-        $atom:O_b11 $mol:m1 @atom:O_b 0.0 3.21805396 2.19548438 4.51648452
+        $atom:O_bos11 $mol:m1 @atom:O_bos 0.0 3.21805396 2.19548438 4.51648452
         $atom:O_b12 $mol:m1 @atom:O_b 0.0 0.03685456 7.69504454 2.38680864
         $atom:O_b13 $mol:m1 @atom:O_b 0.0 1.81874859 2.44801087 6.77663625
         $atom:O_b14 $mol:m1 @atom:O_b 0.0 1.81922920 7.43906610 6.76888901
@@ -89,8 +89,8 @@ Montmorillonite inherits CLAYFF {
     write("Data Bonds") {
         $bond:Hydroxyl1 @bond:O_h-H_h $atom:O_h1 $atom:H_h1
         $bond:Hydroxyl2 @bond:O_h-H_h $atom:O_h2 $atom:H_h2
-        $bond:Hydroxyl3 @bond:O_h-H_h $atom:O_h3 $atom:H_h3
-        $bond:Hydroxyl4 @bond:O_h-H_h $atom:O_h4 $atom:H_h4
+        $bond:Hydroxyl3 @bond:O_h-H_h $atom:O_hs3 $atom:H_h3
+        $bond:Hydroxyl4 @bond:O_h-H_h $atom:O_hs4 $atom:H_h4
         $bond:Hydroxyl5 @bond:O_h-H_h $atom:O_h5 $atom:H_h5
         $bond:Hydroxyl6 @bond:O_h-H_h $atom:O_h6 $atom:H_h6
         $bond:Hydroxyl7 @bond:O_h-H_h $atom:O_h7 $atom:H_h7
@@ -102,10 +102,10 @@ Montmorillonite inherits CLAYFF {
         $angle:Al_o_Hydroxyl2 @angle:Al_o-O_h-H_h $atom:Al_o3 $atom:O_h1 $atom:H_h1
         $angle:Al_o_Hydroxyl3 @angle:Al_o-O_h-H_h $atom:Al_o2 $atom:O_h2 $atom:H_h2
         $angle:Al_o_Hydroxyl4 @angle:Al_o-O_h-H_h $atom:Al_o3 $atom:O_h2 $atom:H_h2
-        $angle:Mg_o_Hydroxyl1 @angle:Mg_o-O_h-H_h $atom:Mg_o1 $atom:O_h3 $atom:H_h3
-        $angle:Al_o_Hydroxyl5 @angle:Al_o-O_h-H_h $atom:Al_o1 $atom:O_h3 $atom:H_h3
-        $angle:Mg_o_Hydroxyl2 @angle:Mg_o-O_h-H_h $atom:Mg_o1 $atom:O_h4 $atom:H_h4
-        $angle:Al_o_Hydroxyl6 @angle:Al_o-O_h-H_h $atom:Al_o1 $atom:O_h4 $atom:H_h4
+        $angle:Mg_o_Hydroxyl1 @angle:Mg_o-O_h-H_h $atom:Mg_o1 $atom:O_hs3 $atom:H_h3
+        $angle:Al_o_Hydroxyl5 @angle:Al_o-O_h-H_h $atom:Al_o1 $atom:O_hs3 $atom:H_h3
+        $angle:Mg_o_Hydroxyl2 @angle:Mg_o-O_h-H_h $atom:Mg_o1 $atom:O_hs4 $atom:H_h4
+        $angle:Al_o_Hydroxyl6 @angle:Al_o-O_h-H_h $atom:Al_o1 $atom:O_hs4 $atom:H_h4
         $angle:Al_o_Hydroxyl7 @angle:Al_o-O_h-H_h $atom:Al_o6 $atom:O_h5 $atom:H_h5
         $angle:Al_o_Hydroxyl8 @angle:Al_o-O_h-H_h $atom:Al_o7 $atom:O_h5 $atom:H_h5
         $angle:Al_o_Hydroxyl9 @angle:Al_o-O_h-H_h $atom:Al_o6 $atom:O_h6 $atom:H_h6

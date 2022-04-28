@@ -1,0 +1,118 @@
+# CLAYFF Montmorillonite
+
+import "clayff.lt"
+
+Montmorillonite inherits CLAYFF {
+    write("Data Atoms") {
+        $atom:O_h1 $mol:m1 @atom:O_h 0.0 3.59082402 4.94610483 4.45364464
+        $atom:O_h2 $mol:m1 @atom:O_h 0.0 4.84904685 4.94467298 2.44994251
+        $atom:O_h3 $mol:m1 @atom:O_h 0.0 0.99538598 0.47591183 4.45350240
+        $atom:O_h4 $mol:m1 @atom:O_h 0.0 2.25362547 0.47392983 2.44977783
+        $atom:O_h5 $mol:m1 @atom:O_h 0.0 8.77591685 4.94630126 4.45350257
+        $atom:O_h6 $mol:m1 @atom:O_h 0.0 10.03418106 4.94479453 2.44987402
+        $atom:O_h7 $mol:m1 @atom:O_h 0.0 6.18058713 0.47600618 4.45383110
+        $atom:O_h8 $mol:m1 @atom:O_h 0.0 7.43872103 0.47436559 2.45013383
+        $atom:O_b1 $mol:m1 @atom:O_b 0.0 0.62814260 6.66648078 4.51687579
+        $atom:O_b2 $mol:m1 @atom:O_b 0.0 2.62655939 3.22423949 2.38663801
+        $atom:O_b3 $mol:m1 @atom:O_b 0.0 1.43569395 2.45098992 0.13468876
+        $atom:O_b4 $mol:m1 @atom:O_b 0.0 1.02568237 4.94586766 6.53348599
+        $atom:O_b5 $mol:m1 @atom:O_b 0.0 2.22974536 4.94458598 0.37005537
+        $atom:O_b6 $mol:m1 @atom:O_b 0.0 -0.36622181 0.47409717 0.36963032
+        $atom:O_b7 $mol:m1 @atom:O_b 0.0 0.03281800 2.19620958 2.38265274
+        $atom:O_b8 $mol:m1 @atom:O_b 0.0 3.61445677 0.47617276 6.53352950
+        $atom:O_b9 $mol:m1 @atom:O_b 0.0 0.62650243 3.22422055 4.52034560
+        $atom:O_b10 $mol:m1 @atom:O_b 0.0 4.40902912 2.96909231 6.76858507
+        $atom:O_b11 $mol:m1 @atom:O_b 0.0 3.21805396 2.19548438 4.51648452
+        $atom:O_b12 $mol:m1 @atom:O_b 0.0 0.03685456 7.69504454 2.38680864
+        $atom:O_b13 $mol:m1 @atom:O_b 0.0 1.81874859 2.44801087 6.77663625
+        $atom:O_b14 $mol:m1 @atom:O_b 0.0 1.81922920 7.43906610 6.76888901
+        $atom:O_b15 $mol:m1 @atom:O_b 0.0 1.43603197 7.44286023 0.12663361
+        $atom:O_b16 $mol:m1 @atom:O_b 0.0 4.41385776 6.91878578 6.77681867
+        $atom:O_b17 $mol:m1 @atom:O_b 0.0 3.22177582 7.69436747 4.52068793
+        $atom:O_b18 $mol:m1 @atom:O_b 0.0 4.02614513 2.97460478 0.12622043
+        $atom:O_b19 $mol:m1 @atom:O_b 0.0 4.03078573 6.92293851 0.13466602
+        $atom:O_b20 $mol:m1 @atom:O_b 0.0 2.62814923 6.66659464 2.38283274
+        $atom:O_b21 $mol:m1 @atom:O_b 0.0 5.81312036 6.66691852 4.51663258
+        $atom:O_b22 $mol:m1 @atom:O_b 0.0 7.81147063 3.22526172 2.38673417
+        $atom:O_b23 $mol:m1 @atom:O_b 0.0 6.62065015 2.45212247 0.13459196
+        $atom:O_b24 $mol:m1 @atom:O_b 0.0 6.21029978 4.94682478 6.53350859
+        $atom:O_b25 $mol:m1 @atom:O_b 0.0 7.41399325 4.94515204 0.37007437
+        $atom:O_b26 $mol:m1 @atom:O_b 0.0 4.81743353 0.47590161 0.36958698
+        $atom:O_b27 $mol:m1 @atom:O_b 0.0 5.21782312 2.19680637 2.38266497
+        $atom:O_b28 $mol:m1 @atom:O_b 0.0 8.80023725 0.47561722 6.53369521
+        $atom:O_b29 $mol:m1 @atom:O_b 0.0 5.81158229 3.22445949 4.52051534
+        $atom:O_b30 $mol:m1 @atom:O_b 0.0 9.59428282 2.96834592 6.76876102
+        $atom:O_b31 $mol:m1 @atom:O_b 0.0 8.40314182 2.19555519 4.51663539
+        $atom:O_b32 $mol:m1 @atom:O_b 0.0 5.22152013 7.69592202 2.38647259
+        $atom:O_b33 $mol:m1 @atom:O_b 0.0 7.00383214 2.44859674 6.77646449
+        $atom:O_b34 $mol:m1 @atom:O_b 0.0 7.00435787 7.43967991 6.76892007
+        $atom:O_b35 $mol:m1 @atom:O_b 0.0 6.62119014 7.44542244 0.12658736
+        $atom:O_b36 $mol:m1 @atom:O_b 0.0 9.59876777 6.91819270 6.77668119
+        $atom:O_b37 $mol:m1 @atom:O_b 0.0 8.40694577 7.69404937 4.52079632
+        $atom:O_b38 $mol:m1 @atom:O_b 0.0 9.21118360 2.97300661 0.12679408
+        $atom:O_b39 $mol:m1 @atom:O_b 0.0 9.21555119 6.92242110 0.13461396
+        $atom:O_b40 $mol:m1 @atom:O_b 0.0 7.81289352 6.66789261 2.38249438 
+        $atom:Si_t1 $mol:m1 @atom:Si_t 0.0 2.59421627 6.48272736 0.74551606
+        $atom:Si_t2 $mol:m1 @atom:Si_t 0.0 -0.00134236 2.01197728 0.74541713
+        $atom:Si_t3 $mol:m1 @atom:Si_t 0.0 3.25576837 7.87904036 6.15789176
+        $atom:Si_t4 $mol:m1 @atom:Si_t 0.0 0.65790796 6.48153035 6.15154876
+        $atom:Si_t5 $mol:m1 @atom:Si_t 0.0 3.24765713 2.01163246 6.15127684
+        $atom:Si_t6 $mol:m1 @atom:Si_t 0.0 2.59665317 3.40909264 0.75187846
+        $atom:Si_t7 $mol:m1 @atom:Si_t 0.0 0.66068413 3.40780535 6.15767845
+        $atom:Si_t8 $mol:m1 @atom:Si_t 0.0 0.00704425 7.87952245 0.75193937
+        $atom:Si_t9 $mol:m1 @atom:Si_t 0.0 7.77838731 6.48383090 0.74522421
+        $atom:Si_t10 $mol:m1 @atom:Si_t 0.0 5.18352370 2.01395770 0.74525138
+        $atom:Si_t11 $mol:m1 @atom:Si_t 0.0 8.44119149 7.87876550 6.15791650
+        $atom:Si_t12 $mol:m1 @atom:Si_t 0.0 5.84297927 6.48223807 6.15152281
+        $atom:Si_t13 $mol:m1 @atom:Si_t 0.0 8.43271403 2.01105407 6.15146456
+        $atom:Si_t14 $mol:m1 @atom:Si_t 0.0 7.78204842 3.40962016 0.75186433
+        $atom:Si_t15 $mol:m1 @atom:Si_t 0.0 5.84572845 3.40866589 6.15775936
+        $atom:Si_t16 $mol:m1 @atom:Si_t 0.0 5.19150856 7.88163930 0.75167003
+        $atom:Mg_o1 $mol:m1 @atom:Mg_o 0.0 1.62458739 1.95836699 3.45072368
+        $atom:Al_o1 $mol:m1 @atom:Al_o 0.0 1.63012330 7.93235802 3.45252821
+        $atom:Al_o2 $mol:m1 @atom:Al_o 0.0 4.22000210 6.42895899 3.45074623
+        $atom:Al_o3 $mol:m1 @atom:Al_o 0.0 4.21968885 3.46179859 3.45258724
+        $atom:Al_o4 $mol:m1 @atom:Al_o 0.0 6.80973066 1.95872319 3.45090100
+        $atom:Al_o5 $mol:m1 @atom:Al_o 0.0 6.81497121 7.93266008 3.45252313
+        $atom:Al_o6 $mol:m1 @atom:Al_o 0.0 9.40508445 6.42914051 3.45080311
+        $atom:Al_o7 $mol:m1 @atom:Al_o 0.0 9.40472668 3.46201856 3.45232724
+        $atom:H_h1 $mol:m1 @atom:H_h 0.0 2.70005405 4.94757138 4.83583993
+        $atom:H_h2 $mol:m1 @atom:H_h 0.0 5.74014935 4.94320036 2.06836600
+        $atom:H_h3 $mol:m1 @atom:H_h 0.0 0.10458202 0.47720636 4.83557958
+        $atom:H_h4 $mol:m1 @atom:H_h 0.0 3.14464581 0.47276582 2.06815139
+        $atom:H_h5 $mol:m1 @atom:H_h 0.0 7.88501840 4.94790230 4.83554000
+        $atom:H_h6 $mol:m1 @atom:H_h 0.0 10.92517643 4.94338208 2.06822359
+        $atom:H_h7 $mol:m1 @atom:H_h 0.0 5.28988761 0.47732184 4.83630526
+        $atom:H_h8 $mol:m1 @atom:H_h 0.0 8.32984348 0.47275369 2.06861755
+    }
+
+    write("Data Bonds") {
+        $bond:Hydroxyl1 @bond:O_h-H_h $atom:O_h1 $atom:H_h1
+        $bond:Hydroxyl2 @bond:O_h-H_h $atom:O_h2 $atom:H_h2
+        $bond:Hydroxyl3 @bond:O_h-H_h $atom:O_h3 $atom:H_h3
+        $bond:Hydroxyl4 @bond:O_h-H_h $atom:O_h4 $atom:H_h4
+        $bond:Hydroxyl5 @bond:O_h-H_h $atom:O_h5 $atom:H_h5
+        $bond:Hydroxyl6 @bond:O_h-H_h $atom:O_h6 $atom:H_h6
+        $bond:Hydroxyl7 @bond:O_h-H_h $atom:O_h7 $atom:H_h7
+        $bond:Hydroxyl8 @bond:O_h-H_h $atom:O_h8 $atom:H_h8
+    }
+
+    write("Data Angles") {
+        $angle:Al_o_Hydroxyl1 @angle:Al_o-O_h-H_h $atom:Al_o2 $atom:O_h1 $atom:H_h1
+        $angle:Al_o_Hydroxyl2 @angle:Al_o-O_h-H_h $atom:Al_o3 $atom:O_h1 $atom:H_h1
+        $angle:Al_o_Hydroxyl3 @angle:Al_o-O_h-H_h $atom:Al_o2 $atom:O_h2 $atom:H_h2
+        $angle:Al_o_Hydroxyl4 @angle:Al_o-O_h-H_h $atom:Al_o3 $atom:O_h2 $atom:H_h2
+        $angle:Mg_o_Hydroxyl1 @angle:Mg_o-O_h-H_h $atom:Mg_o1 $atom:O_h3 $atom:H_h3
+        $angle:Al_o_Hydroxyl5 @angle:Al_o-O_h-H_h $atom:Al_o1 $atom:O_h3 $atom:H_h3
+        $angle:Mg_o_Hydroxyl2 @angle:Mg_o-O_h-H_h $atom:Mg_o1 $atom:O_h4 $atom:H_h4
+        $angle:Al_o_Hydroxyl6 @angle:Al_o-O_h-H_h $atom:Al_o1 $atom:O_h4 $atom:H_h4
+        $angle:Al_o_Hydroxyl7 @angle:Al_o-O_h-H_h $atom:Al_o6 $atom:O_h5 $atom:H_h5
+        $angle:Al_o_Hydroxyl8 @angle:Al_o-O_h-H_h $atom:Al_o7 $atom:O_h5 $atom:H_h5
+        $angle:Al_o_Hydroxyl9 @angle:Al_o-O_h-H_h $atom:Al_o6 $atom:O_h6 $atom:H_h6
+        $angle:Al_o_Hydroxyl10 @angle:Al_o-O_h-H_h $atom:Al_o7 $atom:O_h6 $atom:H_h6
+        $angle:Al_o_Hydroxyl11 @angle:Al_o-O_h-H_h $atom:Al_o4 $atom:O_h7 $atom:H_h7
+        $angle:Al_o_Hydroxyl12 @angle:Al_o-O_h-H_h $atom:Al_o5 $atom:O_h7 $atom:H_h7       
+        $angle:Al_o_Hydroxyl13 @angle:Al_o-O_h-H_h $atom:Al_o4 $atom:O_h8 $atom:H_h8
+        $angle:Al_o_Hydroxyl14 @angle:Al_o-O_h-H_h $atom:Al_o5 $atom:O_h8 $atom:H_h8
+    }
+}

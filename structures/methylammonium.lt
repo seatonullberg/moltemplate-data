@@ -1,0 +1,53 @@
+# OPLSAA Methylammonium Molecule
+
+import "oplsaa.lt"
+
+Methylammonium inherits OPLSAA {
+    write("Data Atoms") {
+        $atom:c1 $mol:. @atom:80   0.0 -0.0180  1.4650  0.0100
+        $atom:n1 $mol:. @atom:231  0.0  0.0020 -0.0040  0.0020
+        $atom:h1 $mol:. @atom:233  0.0  0.4900 -0.3380  0.8200
+        $atom:h2 $mol:. @atom:233  0.0 -0.9450 -0.3530  0.0090
+        $atom:h3 $mol:. @atom:233  0.0  0.4740 -0.3300 -0.8280
+        $atom:h4 $mol:. @atom:85   0.0  1.0050  1.8420  0.0020
+        $atom:h5 $mol:. @atom:85   0.0 -0.5450  1.8260 -0.8730
+        $atom:h6 $mol:. @atom:85   0.0 -0.5280  1.8160  0.9070
+    }
+
+    write("Data Bond List") {
+        $bond:ch1 $atom:c1 $atom:n1
+        $bond:ch2 $atom:c1 $atom:h4
+        $bond:ch3 $atom:c1 $atom:h5
+        $bond:nh1 $atom:c1 $atom:h6
+        $bond:nh2 $atom:n1 $atom:h1
+        $bond:nh3 $atom:n1 $atom:h2
+        $bond:cn1 $atom:n1 $atom:h3
+    }
+
+    write("Data Angle List") {
+        $angle:nch1 $atom:n1 $atom:c1 $atom:h4
+        $angle:nch2 $atom:n1 $atom:c1 $atom:h5
+        $angle:nch3 $atom:n1 $atom:c1 $atom:h6
+        $angle:hch1 $atom:h4 $atom:c1 $atom:h5
+        $angle:hch2 $atom:h4 $atom:c1 $atom:h6
+        $angle:hch3 $atom:h5 $atom:c1 $atom:h6
+        $angle:cnh1 $atom:c1 $atom:n1 $atom:h1
+        $angle:cnh2 $atom:c1 $atom:n1 $atom:h2
+        $angle:cnh3 $atom:c1 $atom:n1 $atom:h3
+        $angle:hnh1 $atom:h1 $atom:n1 $atom:h2
+        $angle:hnh2 $atom:h1 $atom:n1 $atom:h3
+        $angle:hnh3 $atom:h2 $atom:n1 $atom:h3
+    }
+    
+    write("Data Dihedral List") {
+        $dihedral:hcnh1 $atom:h4 $atom:c1 $atom:n1 $atom:h1
+        $dihedral:hcnh2 $atom:h4 $atom:c1 $atom:n1 $atom:h2
+        $dihedral:hcnh3 $atom:h4 $atom:c1 $atom:n1 $atom:h3
+        $dihedral:hcnh4 $atom:h5 $atom:c1 $atom:n1 $atom:h1
+        $dihedral:hcnh5 $atom:h5 $atom:c1 $atom:n1 $atom:h2
+        $dihedral:hcnh6 $atom:h5 $atom:c1 $atom:n1 $atom:h3
+        $dihedral:hcnh7 $atom:h6 $atom:c1 $atom:n1 $atom:h1
+        $dihedral:hcnh8 $atom:h6 $atom:c1 $atom:n1 $atom:h2
+        $dihedral:hcnh9 $atom:h6 $atom:c1 $atom:n1 $atom:h3
+    }
+} # Methylammonium

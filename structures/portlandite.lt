@@ -1,0 +1,23 @@
+# CLAYFF Portlandite
+
+import "clayff.lt"
+
+Portlandite inherits CLAYFF {
+    write("Data Atoms") {
+        $atom:Ca1 $mol:. @atom:Ca_h 0.0  0.000000 0.000000 0.000000 
+        $atom:O1  $mol:. @atom:O_h  0.0 -0.000018 2.069811 1.134943
+        $atom:O2  $mol:. @atom:O_h  0.0  1.792500 1.034921 3.736057
+        $atom:H1  $mol:. @atom:H_h  0.0 -0.000018 2.069811 2.128627
+        $atom:H2  $mol:. @atom:H_h  0.0  1.792500 1.034921 2.742373
+    }
+
+    write("Data Bonds") {
+        $bond:Hydroxyl1 @bond:O_h-H_h $atom:O1 $atom:H1
+        $bond:Hydroxyl2 @bond:O_h-H_h $atom:O2 $atom:H2
+    }
+
+    write("Data Angles") {
+        $angle:Metal_Hydroxyl1 @angle:Ca_h-O_h-H_h $atom:Ca1 $atom:O1 $atom:H1
+        $angle:Metal_Hydroxyl2 @angle:Ca_h-O_h-H_h $atom:Ca1 $atom:O2 $atom:H2
+    }
+}
